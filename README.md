@@ -1,6 +1,6 @@
 ##FORM
 
-live preview available [a link](https://google.com)
+live preview available [here](https://google.com)
 
 - mobile-first,
 - grid-CSS,
