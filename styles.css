@@ -4,8 +4,9 @@
 }
 
 body{
-    background: yellow;
-    color:orange;
+    height:100vh;
+    background: url('./img/astronomy-constellation-dark-998641.jpg') no-repeat center/cover;
+    color:white;
     line-height:1.6;
     font-family:Arial;
     padding: 1em;
@@ -15,6 +16,7 @@ body{
     max-width: 1170px;
     margin:0 auto;
     padding:1em;
+    
 }
 
 ul{
@@ -24,10 +26,11 @@ ul{
 
 .brand{
     text-align:center;
+    color:white;
 }
 
 .brand span{
-    color:red;
+    color:#d3d300;
 }
 
 .wrapper{
@@ -42,7 +45,14 @@ ul{
 }
 
 .company-info{
-    background: lightblue;
+    color:white;
+    border-radius: 5px 5px 0 0;
+    background: rgba(255,255,255, .2);
+}
+
+.company-info h3{
+    border-bottom:2px solid white;
+    text-transform: uppercase;
 }
 
 .company-info h3, .company-info ul{
@@ -51,8 +61,10 @@ ul{
 }
 
 .contact{
-    background: pink;
+    background: rgba(255,255,255, .2);
+    border-radius: 0 0 5px 5px;
 }
+
 
 /* form styles */
 .contact form{
@@ -76,19 +88,20 @@ ul{
 .contact form button, .contact form input, .contact form textarea{
     width:100%;
     padding:1em;
-    border:1px solid blue;
+    border:1px solid white;
+    background: rgba(255,255,255, .2);
     border-radius:5px;
 }
 
 .contact form button{
-    background: red;
+    background: #d3d300;
     border:none;
     border-radius: 5px;
     text-transform: uppercase;
 }
 
 .contact form button:hover, .contact form button:focus{
-    background: blue;
+    background: #101901;
     color:white;
     outline:0;
     transition: background-color 2s ease-out;
@@ -103,6 +116,14 @@ ul{
 
     .wrapper > *{
         padding:2em;
+    }
+
+    .company-info{
+        border-right:1px dashed #d3d300;
+        border-radius: 5px 0 0 5px ;
+    }
+    .contact{
+        border-radius: 0 5px 5px 0;
     }
 
     .company-info h3, .company-info ul, .brand{
